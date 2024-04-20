@@ -45,15 +45,9 @@ img{
     width: 2.5cm;
     height: 2.5cm;
 }
-p {
-    color: blueviolet;
-    text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
-  }
 
-#download_button_div {
-  padding-left: 5vmax;
+.material-symbols-outlined {
+  padding-top: 0px;
 }
 
 #download_button {
