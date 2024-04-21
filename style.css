@@ -57,6 +57,14 @@
   background-color: #2094F3;
 }
 
+
+
+@media(max-width: 600px) {
+  .header_container{
+    flex-direction: column;
+  }
+}
+
 h1 {
     color:#000000;
     text-align: start;
