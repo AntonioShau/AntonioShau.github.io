@@ -1,14 +1,14 @@
 .header_container {
   background-color: rgb(255, 255, 255);
   margin: 0px auto;
-  width: 90%;
+  width: 100%;
   outline: 3px solid;
-  height: 10%px;
+  height: auto;
   resize: both;
   overflow: hidden;
 
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   align-content: flex-start;
   gap: 10px;
 }
@@ -32,7 +32,7 @@
 
 .main_title {
   font-size: 1cm;
-  flex-basis: 100px;
+  flex-basis: 600px;
   flex-grow: 1;
 }
 
