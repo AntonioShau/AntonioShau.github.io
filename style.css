@@ -32,6 +32,17 @@
   flex-grow: 1;
 }
 
+.description {
+  font-size: 1cm;
+  display: flex;
+  align-items: center;
+}
+
+.android_icon span{
+  font-size: 44px;
+  color: #99CC33;
+}
+
 .download_button {
   box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
   border-radius: 8px;
@@ -54,7 +65,13 @@
 }
 
 #main {
-  background-color: #2094F3;
+  width: 100%;
+  background-color: #A7C7FD;
+}
+
+.presentation {
+  padding: 24px;
+  padding-bottom: 0px;
 }
 
 
@@ -62,6 +79,9 @@
 @media(max-width: 600px) {
   .header_container{
     flex-direction: column;
+  }
+  .main_title{
+    flex: 1 0 auto;
   }
 }
 
