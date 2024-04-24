@@ -35,7 +35,7 @@
 .description {
   font-size: 1cm;
   display: flex;
-  align-items: center;
+  align-items:center;
 }
 
 .android_icon span{
@@ -90,8 +90,13 @@ h1 {
     text-align: start;
   }
 img{
-    width: 2.5cm;
-    height: 2.5cm;
+    width: 6cm;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
