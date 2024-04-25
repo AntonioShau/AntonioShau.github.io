@@ -97,6 +97,7 @@ img{
   display: flex;
   align-items: center;
   justify-content: center;
+  transform: skewY(0deg);
 }
 
 
